@@ -47,15 +47,15 @@ namespace Questao4.Moldels
             }
             else if (imc >= 30 && imc <= 34.9)
             {
-                Console.WriteLine("Obsidade e Grau I");
+                Console.WriteLine("Obsidade Grau I");
             }
             else if (imc >= 35 && imc <= 39.9)
             {
-                Console.WriteLine("Obsidade e Grau II");
+                Console.WriteLine("Obsidade Grau II");
             }
             else if (imc >= 40 )
             {
-                Console.WriteLine("Obsidade e Grau III");
+                Console.WriteLine("Obsidade Grau III");
             }
         }
 
