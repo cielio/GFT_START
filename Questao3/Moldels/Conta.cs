@@ -20,7 +20,5 @@ namespace Questao3.Moldels
         }
 
         public abstract double Rendimento();
-
-
     }
 }

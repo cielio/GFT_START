@@ -1,6 +1,6 @@
 ﻿namespace Questao1.Moldels
 {
-    public abstract class Colaborador
+    public class Colaborador
     {
         public string Nome { get; private set; }
         public int Idade { get; private set; }
@@ -14,7 +14,10 @@
             GrauInstrucao = grauInstrucao;
         }
 
-        public abstract double Bonificacao();
+        public virtual double Bonificacao()
+        {
+            return Salario;
+        }
 
     }
 }

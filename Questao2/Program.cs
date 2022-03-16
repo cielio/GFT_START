@@ -19,14 +19,16 @@ namespace Questao2
             {
                 entrada = Console.ReadLine();
                 int numero = int.Parse(entrada);
-                if (numero >= 350 && numero <= 8750)
-                {
-                    if (entrada.Length < 3)
-                    {
-                        Console.WriteLine("A entrada tem que conter 4 dígitos");
 
-                    }
-                }else 
+                if (entrada.Length < 3)
+                {
+                    Console.WriteLine("A entrada tem que conter 3 dígitos");
+
+                }else if (numero >= 350 && numero <= 8750)
+                {
+                    return entrada;
+                }
+                else 
                 {
                     entrada = "";
                     Console.WriteLine("A entrada deve estar entre 350 e 8750");

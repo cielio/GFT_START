@@ -11,15 +11,13 @@ namespace Questao4.Moldels
         public string Nome { get; private set; }
         public double Peso { get; private set; }
         public double Altura { get; private set; }
+
         public Pessoa(string nome, double peso, double altura)
         {
             Nome = nome;
             Peso = peso;
             Altura = altura;
         }
-
-
-
 
         public double CalcImc()
         {
