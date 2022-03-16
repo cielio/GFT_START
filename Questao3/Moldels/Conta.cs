@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Questao3.Moldels
+﻿namespace Questao3.Moldels
 {
     public abstract class Conta
     {
@@ -18,7 +12,6 @@ namespace Questao3.Moldels
             Titular = titular;
             Saldo = saldo;
         }
-
         public abstract double Rendimento();
     }
 }

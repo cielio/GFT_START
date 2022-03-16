@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Questao4.Moldels
 {
@@ -33,9 +29,9 @@ namespace Questao4.Moldels
 
             if (imc <= 18.5)
             {
-               Console.WriteLine("Abaixo do peso");
+                Console.WriteLine("Abaixo do peso");
             }
-            else if(imc > 18.5 && imc <= 24.9 )
+            else if (imc > 18.5 && imc <= 24.9)
             {
                 Console.WriteLine("Peso Normal");
             }
@@ -51,12 +47,11 @@ namespace Questao4.Moldels
             {
                 Console.WriteLine("Obsidade Grau II");
             }
-            else if (imc >= 40 )
+            else if (imc >= 40)
             {
                 Console.WriteLine("Obsidade Grau III");
             }
         }
-
         public override string ToString()
         {
             return $"Nome {Nome} | Altura: {Altura} | Peso: {Peso} | IMC: {CalcImc():F2}";
